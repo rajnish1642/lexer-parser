@@ -5,7 +5,7 @@ import scala.util.parsing.combinator.RegexParsers
 import de.argodis.tutorial.scalaparser.parser.tokens._
 
 object FormulaLexer extends RegexParsers {
-  override def skipWhitespace = true
+//  override def skipWhitespace = true
   override val whiteSpace: Regex = "[ \t\r\f]+".r
 
   // Braces
